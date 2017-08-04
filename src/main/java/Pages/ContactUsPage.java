@@ -26,7 +26,6 @@ public class ContactUsPage {
     public void launchQAWorks() {
         System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\driver\\chromedriver.exe");
         driver = new ChromeDriver();
-
         PageFactory.initElements(this.driver, this);
         driver.get(contactUs_elements.qaQAworksURL);
     }

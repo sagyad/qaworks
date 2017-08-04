@@ -41,4 +41,9 @@ public class contactUs_StepDef {
     public void i_click_on_button(String arg1) throws Throwable {
         contactUsPage.clickOnSendButton();
     }
+    @Then("^I should get confirmation message$")
+    public void i_should_get_confirmation_message() throws Throwable {
+        System.out.println("Confirmation message....");
+    }
+
 }

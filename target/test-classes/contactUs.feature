@@ -11,3 +11,4 @@ Feature: Complete QAworks Contact us page
     And I enter email as "j.Bloggs@qaworks.com "
     And I enter my message as "please contact me I want to find out more"
     When I click on "Send" button
+    Then I should get confirmation message
